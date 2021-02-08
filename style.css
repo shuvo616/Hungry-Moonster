@@ -1,0 +1,32 @@
+#searchFood{
+    background: #6f2a14;
+    color: #fff;
+    border: 0;
+    font-size: 21px;
+}
+#searchFood:focus{
+    border: 0;
+    box-shadow: 0;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+     box-shadow: 0 0 0 0 rgb(13 110 253); 
+}
+#foodName{
+    outline: none;
+}
+.form-control:focus {
+     box-shadow: 0 0 0 0 rgb(13 110 253); 
+}
+#foodDetails li{
+    list-style: none;
+}
+#foodDetails h5{
+    color: #6f2a14;
+}
+.navColor{
+    color:#6f2a14 !important;
+}
+#errorHandel{
+    color:#6f2a14;
+}
